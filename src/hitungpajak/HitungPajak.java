@@ -24,6 +24,7 @@ public class HitungPajak {
         System.out.println("Status : ");
         String status = input.next();
         hitungPajak(penghasilan, status);
+        
 
     }
 
