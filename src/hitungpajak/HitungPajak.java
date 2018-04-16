@@ -38,7 +38,7 @@ public class HitungPajak {
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 300000000) {
-                            totalPajak = totalPajak + (250000000 * 0.05);
+                            totalPajak = totalPajak + (250000000 * 0.15);
                             if (Penghasilan > 800000000) {
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
