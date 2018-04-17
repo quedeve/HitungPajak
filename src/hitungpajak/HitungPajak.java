@@ -24,7 +24,6 @@ public class HitungPajak {
         System.out.println("Status : ");
         String status = input.next();
         hitungPajak(penghasilan, status);
-        
 
     }
 
@@ -33,13 +32,14 @@ public class HitungPajak {
         switch (Status) {
             case "TK0":
                 Penghasilan = Penghasilan - 36000000;
-                 if (Penghasilan > 0) {
+                if (Penghasilan > 0) {
 
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
+                            totalPajak = totalPajak + (200000000 * 0.15);
                             if (Penghasilan > 500000000) {
+                                totalPajak = totalPajak + (250000000 * 0.30);
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
                                 totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
@@ -64,8 +64,9 @@ public class HitungPajak {
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
+                            totalPajak = totalPajak + (200000000 * 0.15);
                             if (Penghasilan > 500000000) {
+                                totalPajak = totalPajak + (250000000 * 0.30);
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
                                 totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
@@ -84,13 +85,14 @@ public class HitungPajak {
                 break;
             case "TK2":
                 Penghasilan = Penghasilan - 42000000;
-                if (Penghasilan > 0) {
+                 if (Penghasilan > 0) {
 
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
+                            totalPajak = totalPajak + (200000000 * 0.15);
                             if (Penghasilan > 500000000) {
+                                totalPajak = totalPajak + (250000000 * 0.30);
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
                                 totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
@@ -109,13 +111,14 @@ public class HitungPajak {
                 break;
             case "TK3":
                 Penghasilan = Penghasilan - 45000000;
-               if (Penghasilan > 0) {
+                 if (Penghasilan > 0) {
 
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
+                            totalPajak = totalPajak + (200000000 * 0.15);
                             if (Penghasilan > 500000000) {
+                                totalPajak = totalPajak + (250000000 * 0.30);
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
                                 totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
@@ -134,38 +137,14 @@ public class HitungPajak {
                 break;
             case "K0":
                 Penghasilan = Penghasilan - 39000000;
-              if (Penghasilan > 0) {
+                 if (Penghasilan > 0) {
 
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
+                            totalPajak = totalPajak + (200000000 * 0.15);
                             if (Penghasilan > 500000000) {
-                                totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
-                            } else {
-                                totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
-                            }
-                        } else {
-                            totalPajak = totalPajak + ((Penghasilan - 50000000) * 0.15);
-                        }
-                    } else {
-                        totalPajak = Penghasilan * 0.05;
-                    }
-
-                } else {
-                    totalPajak = 0;
-                }
-                System.out.println("Total Pajak : " + totalPajak);
-                break;
-            case "K1":
-                Penghasilan = Penghasilan - 42000000;
-               if (Penghasilan > 0) {
-
-                    if (Penghasilan > 50000000) {
-                        totalPajak = totalPajak + (50000000 * 0.05);
-                        if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
-                            if (Penghasilan > 500000000) {
+                                totalPajak = totalPajak + (250000000 * 0.30);
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
                                 totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
@@ -184,13 +163,14 @@ public class HitungPajak {
                 break;
             case "K2":
                 Penghasilan = Penghasilan - 45000000;
-              if (Penghasilan > 0) {
+                 if (Penghasilan > 0) {
 
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
+                            totalPajak = totalPajak + (200000000 * 0.15);
                             if (Penghasilan > 500000000) {
+                                totalPajak = totalPajak + (250000000 * 0.30);
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
                                 totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
@@ -209,13 +189,14 @@ public class HitungPajak {
                 break;
             case "K3":
                 Penghasilan = Penghasilan - 48000000;
-                if (Penghasilan > 0) {
+                 if (Penghasilan > 0) {
 
                     if (Penghasilan > 50000000) {
                         totalPajak = totalPajak + (50000000 * 0.05);
                         if (Penghasilan > 250000000) {
-                            totalPajak = totalPajak + (250000000 * 0.15);
+                            totalPajak = totalPajak + (200000000 * 0.15);
                             if (Penghasilan > 500000000) {
+                                totalPajak = totalPajak + (250000000 * 0.30);
                                 totalPajak = totalPajak + ((Penghasilan - 500000000) * 0.30);
                             } else {
                                 totalPajak = totalPajak + ((Penghasilan - 250000000) * 0.25);
